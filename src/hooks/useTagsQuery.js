@@ -4,7 +4,7 @@ import React from "react";
 import axios from 'axios';
 
 const getAllTags = async () => {
-    const { data } = await axios.get(`http://localhost:3001/api/tags`);
+    const { data } = await axios.get(`https://bloggingwebsite-backend-a7q5.onrender.com/api/tags`);
 
     //   console.log("getCurrentUser", { data });
 
